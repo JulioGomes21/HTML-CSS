@@ -1,0 +1,27 @@
+@charset "UTF-8";
+div {
+  display: inline-block;
+  background-color: lightgray;
+  border: 2px solid black;
+  text-align: center;
+  height: 200px;
+  width: 200px;
+}
+#d1 {
+  background-color: aqua;
+}
+#d2 {
+  background-color: brown;
+}
+#d3 {
+  background-color: chartreuse;
+}
+#d1:hover {
+  background-color: yellow;
+}
+#d2:hover {
+  background-color: yellow;
+}
+#d3:hover {
+  background-color: yellow;
+}

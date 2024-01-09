@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Teste5</title>
+  </head>
+  <body>
+    <h1>Imagens dinamicas</h1>
+    <picture>
+      <source
+        media="(max-width: 750px)"
+        srcset="Imagens/imagem-p.png"
+        type="image/png"
+      />
+      <source
+        media="(max-width: 1050px)"
+        srcset="Imagens/imagem-m.png"
+        type="image/png"
+      />
+      <img src="Imagens/imagem-g.png" alt="imagem flexivel" />
+    </picture>
+  </body>
+</html>
